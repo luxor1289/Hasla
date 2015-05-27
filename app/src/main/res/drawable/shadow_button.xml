@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="1dp" android:top="1dp">
+                <shape>
+                    <solid android:color="#B0B0B0" />
+                    <corners android:radius="3dp" />
+                    <padding
+				          android:left="1dp"
+				          android:top="1dp"
+				          android:right="1dp"
+				          android:bottom="1dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- SHADOW LAYER, BOTTOM -->
+            <item   >
+                <shape>
+                    <!--<solid android:color="#A4A4A4" />-->
+                    <solid android:color="#D0D0D0" />
+                    <corners android:radius="3dp" />
+                    <padding
+				          android:left="1dp"
+				          android:top="1dp"
+				          android:right="1dp"
+				          android:bottom="1dp" />
+             
+                </shape>
+            </item>
+              <!-- CONTENT LAYER -->
+            <item android:top="-1dp" android:left="-1dp" android:right="-1dp">
+                <shape>
+                    <solid android:color="#F0F0F0" />
+                 	<corners android:radius="3dp" />
+       				<padding
+				      	  android:left="1dp"
+				          android:top="1dp"
+				          android:right="1dp"
+				          android:bottom="1dp" />
+                </shape>
+            </item>
+          
+        </layer-list>
+    </item>
+</selector>

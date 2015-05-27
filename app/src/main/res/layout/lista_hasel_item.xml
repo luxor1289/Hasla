@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="13sp"
+    android:paddingRight="13sp"
+    android:background="@drawable/list_item_background"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="1dp"
+        android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textViewNazwa"
+        style="@style/nazwa_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView
+        android:id="@+id/textViewLoginText"
+        style="@style/strona_text"
+        android:layout_below="@id/textViewNazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        />
+    
+    <TextView
+        android:id="@+id/textViewLogin"
+        style="@style/strona_login"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@id/textViewLoginText"
+        android:layout_below="@id/textViewNazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+
+    <TextView
+        android:id="@+id/textViewStrona"
+        style="@style/strona_text"  
+        android:layout_below="@id/textViewLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/key_list"
+        android:layout_alignTop="@+id/textViewLogin"
+        android:layout_alignEnd="@+id/textViewStrona"
+        android:layout_alignRight="@+id/textViewStrona"/>
+
+</RelativeLayout>

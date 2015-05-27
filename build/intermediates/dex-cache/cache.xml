@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Documents and Settings\dga\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\android\HaslaAndroidStudio\app\build\intermediates\pre-dexed\debug\guava-18.0-49541c2351e1ef9b098daf4655ef3d1972da4def.jar" />
+    </item>
+    <item
+        jar="C:\android\HaslaAndroidStudio\app\libs\commons-codec.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="C:\android\HaslaAndroidStudio\app\build\intermediates\pre-dexed\debug\commons-codec-d16676b86e98fbef3c54289714872e988e46b3f9.jar" />
+    </item>
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\android\HaslaAndroidStudio\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b8fa6a3fdf94242b78000008b7d2b7447e57a13f.jar" />
+    </item>
+    <item
+        jar="C:\android\HaslaAndroidStudio\app\libs\sqlcipher.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9bbda56959cfe0a300ea789d47259c0e911d5d75">
+        <dex dex="C:\android\HaslaAndroidStudio\app\build\intermediates\pre-dexed\debug\sqlcipher-014a63f96b9400dd824462a4a3c8cc940359a34a.jar" />
+    </item>
+
+</items>

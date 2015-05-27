@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hasła</string>
+
+    <!-- Aktywność Logowanie -->
+    <string name="wprowadz_pin">Wprowadź PIN :</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="button0">0</string>
+    <string name="button_wyjdz">Wyjdź</string>
+    <string name="button_wstecz">Skasuj</string>
+    <string name="button_odblokuj">Odblokuj</string>
+    <string name="info">Developed by: Łukasz Kowalewski</string>
+
+    <!-- Tytuł aktywności Hasła -->
+    <string name="title_activity_hasla">Hasła</string>
+
+    <!-- Itemy Menu w Aktywności Hasła -->
+    <string name="add">Dodaj hasło</string>
+    <string name="settings">Ustawienia</string>
+    <string name="exit">Wyjście</string>
+
+    <!-- Tytuł aktywności Ustawienia -->
+    <string name="title_activity_ustawienia">Ustawienia</string>
+
+    <!-- lista haseł -->
+    <string name="login_text">Login: </string>
+
+    <!-- aktywnosc Szczegoly -->
+    <string name="title_activity_szczegoly">Informacje</string>
+    <string name="login">Login: </string>
+    <string name="haslo">Hasło: </string>
+    <string name="strona">Strona: </string>
+    <string name="opis">Opis: </string>
+    <string name="button_szczegoly">Wstecz</string>
+    <string name="delete">Usuń</string>
+    <string name="edit">Edytuj</string>
+    <string name="button_pokaz">Pokaż</string>
+
+    <!-- aktywnosc DodajHaslo -->
+    <string name="title_activity_dodaj_haslo">Utwórz Haslo</string>
+    <string name="button_dodaj">Utwórz</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="title_activity_edycja">Edycja</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- aktywnosc Edycja -->
+    <string name="button_zapisz">Zapisz</string>
+
+</resources>
